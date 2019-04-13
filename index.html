@@ -1,47 +1,84 @@
+<!-- First Page: Completed
+Working on Second Page -->
 <html>
   <head>
-    <title>Dell</title>
-    <link rel="stylesheet" href="./index.css" />
+    <title>Dell Laptop</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div id="top-nav">
-      <img src="https://via.placeholder.com/150x200.png" id='navbar-logo'>
-      <p class="navbar-button">Homepage</p>
-      <p class="navbar-button">My Profile</p>
-      <p class="navbar-button">My Cart</p>
-    </div>
-    
-    <div id="product-title">
-      <p class="pd-title">Dell XPS 13</p>
-    </div>
+    <div id="center-block">
+      <div id="top-bar">
+        <div id="dell-icon">
+          <img src="assets/delllogo2.png" id="navbar-logo" alt="Dell Logo">
+        </div>
+        <div id="nav-bar"> 
+            <div class="navbar-button"><a href="https://www.dell.com/en-my"><span>Homepage</span></a></div>
+            <div class="navbar-button"><span><a href="https://github.com/tiffangchan19">My Profile </a></span></div>
+            <div class="navbar-button"><span><a href="http://ww2.sinaimg.cn/large/006APoFYjw1fa28fuoy71j30k00k0dhz.jpg">My Cart</a></span></div>
+          </div>
+      </div>
+      <!-- Second Page Hide These! -->
+      <div id="product-title" class="pd-title">Dell XPS 13</div>
+      <div id="left-sec">
+        <div class="box">
+          <div><img src="assets/laptop-512.png" class="spec-image"></div>
+          <div class="spec-desc">13.3-in. display</div>
+        </div>
+        <div class="box">
+          <div><img src="assets/cpu.png" class="spec-image"></div>
+          <div class="spec-desc">Up to 4.30 GHz</div>
+        </div>
+        <div class="box">
+          <div><img src="assets/Nvidia_image_logo.svg" class="spec-image"></div>
+          <div class="spec-desc">Powered by NVDIA GeForce</div>
+        </div>
+        <div class="box">
+          <div><img src="assets/cpu.png" class="spec-image"></div>
+          <div class="spec-desc">Up to 32GB RAM</div>
+        </div>
+        <div class="box">
+          <div><img src="assets/cpu.png" class="spec-image"></div>
+          <div class="spec-desc">Up to 1TB SSD</div>
+        </div>
+      </div>
+      <div id="right-sec">
+          <div><img src="assets/xps-15-lt-2018.jpg" style="height: 50vh;width: 100%; object-fit: contain;"></div>
+      </div>
 
-  <!-- <div id="parent1">
-    <div class="child1">Hello</div>
+      <!-- // Second Page -->
+      <div id="XPS">
+      </div>
+      
+
+
+    </div>
+      
   </div>
-  <div id="parent2">
-    <div class="child2">Margin Centering</div>
-  </div>
 
-   -->
-<div id="great-grandparent">
-  <div id="grandparent">
-    <div id="parent3">
-      <div class="child3">Flex Centering</div>
-      <div class="child3">Flex Centering</div>
-      <div class="child3">Flex Centering</div>
-      <div class="child3">Flex Centering</div>
-      <div class="child3">Flex Centering</div>
+  <!-- Second Page Footer Fix -->
+  <div id="footer">
+    <div id="footer-top">
+      <div class="specs2">1920x1080 Anti-Glare IPS</div>
+      <div class="specs2">4GB DDR3</div>
+      <div class="specs2">1TB HDD</div>
+      <div class="specs2">i7 4870 4.10 GHz</div>
+      <div id="specs2-split">
+        <div class="price-custom">RM 4500</div>
+        <button id="customize-button"  onclick="customizeFunc()">Customize</button>
+      </div>
     </div>
-    <div id="parent6">
-        <div class="child6">IMAGE</div>
+    <div id="footer-bottom">
+      <div id="footer-container">
+        <div class="footer-item"><a href="https://www.dell.com/learn/bo/en/bocorp1/terms-of-sale">Terms and Conditions</a></div>
+        <div class="footer-item"><a href="https://www.dell.com/learn/us/en/uscorp1/policies-privacy">Privacy Statement</a></div>
+        <div class="footer-item"><a href="https://www.dell.com/learn/us/en/uscorp1/corp-comm?~ck=mn">About Dell</a></div>
+        <div class="footer-item"><a href="https://www.dell.com/support/Contents/us/en/uscorp1/category/Contact-Information">Contact Us</a></div>
+      </div>
     </div>
   </div>
-</div>
-  <!-- <div id="parent4">
-    <div class="child4">Absolute Positioning</div>
-  </div>  -->
-
-
+  <!-- Second Page Footer Fix End -->
   <script src="./build/index.js"></script>
   </body>
 </html>
